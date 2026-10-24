@@ -41,7 +41,7 @@ Reading, searching, checks and the login are free. A counter in the scripts refu
 
 Use one of these 2 ways.
 
-**With the skills installer:**
+**With the skills installer** (it asks for your agent):
 
 ```bash
 npx skills add inde3d100/e2e-qa
