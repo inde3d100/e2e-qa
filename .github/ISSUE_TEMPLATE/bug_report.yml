@@ -1,0 +1,28 @@
+name: Bug report
+description: The skill, a script or the demo app does the wrong thing.
+labels: [bug]
+body:
+  - type: input
+    id: agent
+    attributes:
+      label: Agent and version
+      placeholder: Claude Code 2.1.309
+    validations:
+      required: true
+  - type: input
+    id: app
+    attributes:
+      label: Type of your app
+      placeholder: A React page with a REST API
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: The part of the report or of the agent output that shows it
+      description: Remove secrets and personal data first.
+      render: markdown

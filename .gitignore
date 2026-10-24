@@ -1,3 +1,4 @@
 node_modules/
 .DS_Store
+# A qa/ folder made by a test run of the skill in this repository
 qa/
