@@ -1,0 +1,6 @@
+{
+  "turns_per_day": { "frontend": 25, "backend": 25 },
+  "core_turns_max": { "frontend": 10, "backend": 10 },
+  "rea": "auto",
+  "paid_calls_per_round": 0
+}

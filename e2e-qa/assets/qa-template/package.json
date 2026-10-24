@@ -1,0 +1,14 @@
+{
+  "name": "qa",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "round": "node scripts/round.mjs",
+    "turns": "node scripts/turns.mjs",
+    "fail-check": "node scripts/fail-check.mjs",
+    "list": "playwright test --list"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1"
+  }
+}

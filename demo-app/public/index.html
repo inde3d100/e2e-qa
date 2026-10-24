@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Corner Bakery orders</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>body{font-family:system-ui;max-width:640px;margin:2rem auto;padding:0 1rem}li{margin:.3rem 0}.err{color:#b00}</style></head>
+<body>
+<h1>Corner Bakery orders</h1>
+<section id="login" hidden>
+  <form id="login-form">
+    <label>Password <input id="password" type="password" autocomplete="current-password"></label>
+    <button type="submit">Log in</button>
+  </form>
+  <p id="login-error" class="err" role="alert"></p>
+</section>
+<section id="main" hidden>
+  <button id="logout" type="button">Log out</button>
+  <form id="add-form">
+    <label>Item <input id="name" name="name"></label>
+    <label>Quantity <input id="qty" name="qty" type="number" value="1"></label>
+    <button id="add" type="submit">Add order</button>
+  </form>
+  <p id="add-error" class="err" role="alert"></p>
+  <label>Search <input id="search" type="search"></label>
+  <ul id="orders" aria-label="Orders"></ul>
+  <p id="empty" hidden>No orders yet.</p>
+</section>
+<script src="/app.js"></script>
+</body>
+</html>
