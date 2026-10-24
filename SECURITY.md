@@ -12,7 +12,7 @@ Do not open a public issue for a security problem. Use [a private report on GitH
 
 ## What does not count
 
-The demo app has bugs on purpose. [docs/demo-known-bugs.md] lists them(docs/demo-known-bugs.md). Never run the demo app on a public address.
+The demo app has bugs on purpose. [The known bugs page](docs/demo-known-bugs.md) lists them. Never run the demo app on a public address.
 
 ## Safe use
 
